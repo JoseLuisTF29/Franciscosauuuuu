@@ -1,0 +1,187 @@
+/* Estilos globales */
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Estilo para el contenedor superior */
+.SuperiorDIV {
+    background: linear-gradient(135deg, #4a90e2, #50e3c2);
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+    border-bottom: 6px solid #4a90e2;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+}
+
+.SuperiorDIV h1 {
+    margin: 0;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+.SuperiorDIV .subtitulo {
+    font-size: 1.3em;
+    margin-top: 15px;
+    line-height: 1.5;
+}
+
+/* Estilo para secciones limpias */
+.divLimpio, .cajadiv, .tablediv {
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 900px;
+    border-radius: 12px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+    border: 1px solid #ddd;
+    transition: box-shadow 0.3s ease;
+}
+
+.divLimpio:hover, .cajadiv:hover, .tablediv:hover {
+    box-shadow: 0 12px 25px rgba(0,0,0,0.3);
+}
+
+/* Estilo para títulos de secciones */
+h2, h3 {
+    color: #333;
+    font-weight: bold;
+}
+
+h2 {
+    border-bottom: 3px solid #4a90e2;
+    padding-bottom: 12px;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: #555;
+    margin-top: 0;
+}
+
+/* Estilos para tablas */
+.tablediv {
+    padding: 30px;
+}
+
+.tablediv table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.tablediv th, .tablediv td {
+    padding: 12px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+.tablediv img {
+    width: 250px; /* Tamaño de las imágenes más grande */
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+    transition: transform 0.3s ease;
+}
+
+.tablediv img:hover {
+    transform: scale(1.05);
+}
+
+/* Estilo para listas */
+ol, ul {
+    padding-left: 20px;
+}
+
+ol li, ul li {
+    margin: 10px 0;
+}
+
+/* Estilo para enlaces */
+a {
+    color: #4a90e2;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Estilo de botones */
+button {
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #357abd;
+}
+
+/* Estilo para el contenedor del formulario */
+.contactFormContainer {
+    background-color: #fff;
+    padding: 40px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
+
+/* Estilo para grupos de formulario */
+.formGroup {
+    margin-bottom: 20px;
+}
+
+.formGroup label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.formGroup input, .formGroup textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.formGroup textarea {
+    resize: vertical;
+}
+
+/* Estilo para el botón */
+button {
+    background-color: #4a90e2;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #357abd;
+}
+
+/* Estilo para las notificaciones */
+.notification {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    background-color: #4a90e2;
+    color: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
